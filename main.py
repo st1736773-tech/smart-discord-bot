@@ -25,9 +25,9 @@ async def on_message(message):
         "hello": ["Hello! 👋", "Hey there 😄"],
         "hey": ["Hey! What's up? 😎"],
         "how are you": ["I'm doing great 😄", "All good! 💪"],
-        "what is your name": ["I'm Seema's bot 🤖✨"],
+        "what is your name": ["I'm Shreya's bot 🤖✨"],
         "who are you": ["I'm a Discord chatbot 🤖"],
-        "who made you": ["I was made by Seema 💻🔥"],
+        "who made you": ["I was made by Shreya 💻🔥"],
         "bye": ["Goodbye 👋", "See you soon 😁"],
         "good morning": ["Good morning ☀️", "Have a great day 😄"],
         "good night": ["Good night 🌙", "Sweet dreams 😴"],
@@ -161,7 +161,7 @@ async def on_message(message):
 # Commands section
 @bot.command()
 async def hi(ctx):
-    await ctx.send("Hello 😄 Command se greet kiya tumne!")
+    await ctx.send("Hello 😄 you are doing command great!")
 
 @bot.command()
 async def about(ctx):
